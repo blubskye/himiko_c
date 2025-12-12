@@ -1,0 +1,19 @@
+{
+  "token": "MTIzNDU2Nzg5MDEyMzQ1Njc4.XXXXXX.YYYYYY",
+  "prefix": "-",
+  "database_path": "himiko.db",
+  "owner_id": "123456789012345678",
+  "owner_ids": ["123456789012345678", "987654321098765432"],
+  "apis": {
+    "weather_api_key": "abc123",
+    "google_api_key": "xyz789",
+    "openai_api_key": "sk-test",
+    "openai_base_url": "https://api.openai.com/v1",
+    "openai_model": "gpt-4"
+  },
+  "features": {
+    "command_history": true,
+    "auto_update": false,
+    "update_check_hours": 12
+  }
+}

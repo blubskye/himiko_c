@@ -1,0 +1,30 @@
+{
+  "token": "YOUR_BOT_TOKEN_HERE",
+  "prefix": "-",
+  "database_path": "himiko.db",
+  "owner_id": "YOUR_DISCORD_USER_ID",
+  "owner_ids": ["YOUR_DISCORD_USER_ID", "OPTIONAL_SECOND_OWNER_ID"],
+  "apis": {
+    "weather_api_key": "",
+    "google_api_key": "",
+    "spotify_client_id": "",
+    "spotify_client_secret": "",
+    "openai_api_key": "",
+    "openai_base_url": "https://api.openai.com/v1",
+    "openai_model": "gpt-3.5-turbo",
+    "youtube_api_key": "",
+    "soundcloud_auth_token": ""
+  },
+  "features": {
+    "dm_logging": false,
+    "command_history": true,
+    "delete_timer": 0,
+    "webhook_notify": false,
+    "webhook_url": "",
+    "auto_update": true,
+    "auto_update_apply": false,
+    "update_check_hours": 24,
+    "update_notify_channel": "",
+    "debug_mode": false
+  }
+}

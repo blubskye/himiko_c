@@ -1,0 +1,44 @@
+# Build directories
+build/
+build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Binary
+bin/
+*.o
+*.a
+*.so
+himiko
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Config with secrets
+config.json
+
+# Database
+*.db
+*.db-journal
+
+# Logs
+*.log
+
+# PGO data
+pgo-data/
+
+# Fuzzing output
+fuzz/findings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dist archives and binaries
+dist/
