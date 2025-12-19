@@ -415,8 +415,8 @@ The AGPL-3.0 is a **copyleft license** that ensures this software remains free a
 - 🌐 **Run** it as a network service (like a public Discord bot)
 
 #### 📋 You MUST:
-- 📖 **Keep it open source** - If you modify and distribute this code, your version must also be AGPL-3.0
-- 🔗 **Provide source access** - Users of your modified bot must be able to get the source code
+- 📖 **Keep it open source** - ANY modifications you make must be released under AGPL-3.0
+- 🔗 **Publish your source code** - Your modified source code must be made publicly available
 - 📝 **State changes** - Document what you've modified from the original
 - 💌 **Include license** - Keep the LICENSE file and copyright notices intact
 
@@ -424,15 +424,16 @@ The AGPL-3.0 is a **copyleft license** that ensures this software remains free a
 *"Even if we're apart... I'll always find you~"*
 
 Unlike regular GPL, **AGPL has a network provision**. This means:
-- If you run a **modified version** of this bot as a public service (like hosting it for others to use on Discord)
-- You **MUST** make your complete source code available to users
+- If you modify this code **at all**, you must make your source public
+- Running a modified version as a network service (like a Discord bot) requires source disclosure
+- This applies whether you "distribute" the code or not - network use counts!
 - The `/source` command in this bot helps satisfy this requirement!
 
 #### ❌ You CANNOT:
-- 🚫 Make it closed source
+- 🚫 Make it closed source or keep modifications private
 - 🚫 Remove the license or copyright notices
 - 🚫 Use a different license for modified versions
-- 🚫 Hide your modifications if you run it as a public service
+- 🚫 Run modified code without publishing your source
 
 #### 💡 In Simple Terms:
 > *"If you use my code to create something, you must share it with everyone too~ That's true love, right?"*
